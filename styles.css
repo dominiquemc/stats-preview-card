@@ -78,7 +78,7 @@ width: 1000px;
 
 .insights {
   font-family: 'Inter', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: var(--white);
   width: 90%;
   
@@ -91,7 +91,7 @@ span {
 .numbers {
   text-transform: uppercase;
   color: var(--white);
-  font-size: 10px;
+  font-size: 0.625rem;
   letter-spacing: 2px;
   font-weight: 200;
 }
