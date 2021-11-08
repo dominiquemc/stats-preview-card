@@ -57,9 +57,10 @@ img {
   font-family: 'Lexend Deca', sans-serif;
 }
 
-.analytics h3 {
+.analytics ul {
   margin: 50px 20px 0 0;
   padding: 5px;
+  list-style-type: none;
 }
 
 .content-section {
