@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
+:root {
+  --verydarkblue: hsl(233, 47%, 7%);
+  --darkdesaturatedblue: hsl(244, 38%, 16%);
+  --softviolet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --maintransparentwhite: hsla(0, 0%, 100%, 0.75);
+  --headingtransparentwhite: hsla(0, 0%, 100%, 0.6);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +17,7 @@
 }
 
 body {
-  background-color: hsl(233, 47%, 7%);
+  background-color: var(--verydarkblue); 
 }
 
 content {
@@ -17,11 +26,12 @@ content {
 
 .container {
 display: flex; 
-background-color: hsl(244, 38%, 16%);
+background-color: var(--darkdesaturatedblue);
 justify-content: center;
 margin: 100px auto;
 border-radius: 10px;
-width: 60%;
+width: 70%;
+padding: 15px;
 
 
 }
@@ -45,5 +55,12 @@ width: 60%;
 }
 
 .content-section {
+  padding: 15px;
+  margin-top: 50px;
+}
 
+.insights {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  width: 90%;
 }
