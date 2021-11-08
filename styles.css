@@ -29,38 +29,61 @@ display: flex;
 background-color: var(--darkdesaturatedblue);
 justify-content: center;
 margin: 100px auto;
-border-radius: 10px;
-width: 70%;
-padding: 15px;
+border-radius: 5px;
+width: 1000px;
+
 
 
 }
 
 .image {
-  height: 350px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  object-fit: contain;
-  align-self: flex-end;
+  height: 420px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.analytics,
+.content-section p {
+  color: var(--white);
   
- 
 }
 
 .analytics {
   display: flex;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .analytics h3 {
-
+  margin: 50px 20px 0 0;
+  padding: 5px;
 }
 
 .content-section {
-  padding: 15px;
+  padding: 35px;
   margin-top: 50px;
+}
+
+.content-section p {
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 30px;
+  line-height: 1.7;
 }
 
 .insights {
   font-family: 'Inter', sans-serif;
   font-size: 30px;
+  color: var(--white);
   width: 90%;
+  
+}
+
+span {
+  color: var(--softviolet);
+}
+
+.numbers {
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: 2px;
 }
