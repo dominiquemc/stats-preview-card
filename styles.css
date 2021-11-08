@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Lexend+Deca:wght@300;400&display=swap');
+
 
 :root {
   --verydarkblue: hsl(233, 47%, 7%);
@@ -28,7 +29,7 @@ content {
 display: flex; 
 background-color: var(--darkdesaturatedblue);
 justify-content: center;
-margin: 100px auto;
+margin: 150px auto;
 border-radius: 5px;
 width: 1000px;
 
@@ -40,6 +41,7 @@ width: 1000px;
   height: 420px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  mix-blend-mode: color-dodge;
 }
 
 .analytics,
@@ -67,6 +69,7 @@ width: 1000px;
   font-family: 'Lexend Deca', sans-serif;
   padding-top: 30px;
   line-height: 1.7;
+  font-weight: 300;
 }
 
 .insights {
@@ -86,4 +89,6 @@ span {
   color: var(--white);
   font-size: 10px;
   letter-spacing: 2px;
+  font-weight: 200;
 }
+
