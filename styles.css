@@ -105,18 +105,21 @@ span {
       text-align: center;
       margin: auto;
       
+      
     }
     
     .image-container {
       display: flex;
       background-color: #9F55CE;
       border-top-right-radius: 5px;
-      border-top-left-radius: 5px;    
+      border-top-left-radius: 5px; 
+      border-bottom-right-radius: 0; 
       }
       
       img {
        width: 100%;
-       
+       border-bottom-right-radius: 0; 
+     
       }
 
       .analytics {
